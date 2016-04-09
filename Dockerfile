@@ -16,6 +16,4 @@ RUN cd /src; npm install
 
 EXPOSE 8080
 
-LABEL TALA_LABEL="TALA_SIGNED"
-
 CMD cd /src && node ./app.js
